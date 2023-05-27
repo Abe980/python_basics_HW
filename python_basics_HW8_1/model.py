@@ -56,7 +56,7 @@ def change_contact(new: dict, index: int) -> str:
             return contact.get('name')
         
 
-def del_contact(del_list: list, index: int) -> str:
+def del_contact(index: int) -> str:
     global phone_book
     for contact in phone_book:
         if index == contact.get('id'):

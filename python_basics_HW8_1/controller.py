@@ -49,7 +49,7 @@ def start():
                         current_id = view.input_search(text.input_index)
                     else:
                         current_id = result[0].get('id')
-                    name = model.del_contact(result[0], current_id)
+                    name = model.del_contact(current_id)
                     view.print_message(text.del_successful(name))
                 else:
                     view.print_message(text.empty_search(key_word))
