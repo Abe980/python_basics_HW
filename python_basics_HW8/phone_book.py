@@ -68,7 +68,7 @@ def del_contact():
 
 
 
-path = 'phone_book.txt'
+path = 'python_basics_HW8\phone_book.txt'
 data_list = open_file_read(path)
 correct_input = True
 
