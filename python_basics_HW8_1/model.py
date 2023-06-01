@@ -1,5 +1,5 @@
 phone_book: list[dict[str, str]] = []
-path = 'phones.txt'
+path = 'python_basics_HW8_1\phones.txt'
 
 
 def open_pb():
